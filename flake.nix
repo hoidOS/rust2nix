@@ -18,6 +18,11 @@
           pkg-config
           openssl
         ];
+        shellHook = ''
+          echo "--------------------"
+          echo "RUST DEVELOPER SHELL"
+          echo "--------------------"
+        '';
       };
     };
 }
